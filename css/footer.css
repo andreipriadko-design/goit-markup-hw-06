@@ -1,0 +1,125 @@
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+}
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-social {
+  margin-left: 120px;
+}
+
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+.footer-social-icon {
+  fill: #f4f4fd;
+}
+.footer-subscribe {
+  margin-left: 83px;
+}
+.footer-subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: transparent;
+padding-left: 16px;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #ffffff;
+transition: border-color 250ms;
+}
+.footer-subscribe-input:focus {
+  border-color: #31d0aa;
+}
+.footer-subscribe-input::placeholder {
+  color: #ffffff;
+}
+.footer-subscribe-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+background-color: #4d5ae5;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 250ms;
+}
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
+}
+.footer-subscribe-icon {
+  margin-left: 16px;
+}
