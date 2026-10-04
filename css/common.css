@@ -42,3 +42,8 @@ img {
   white-space: nowrap;
   border: 0;
 }
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 96px 0;
+  }
+}

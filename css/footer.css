@@ -123,3 +123,41 @@ transition: background-color 250ms;
 .footer-subscribe-icon {
   margin-left: 16px;
 }
+@media screen and (max-width: 767px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+text-align: center;
+}
+.footer-social,
+.footer-subscribe {
+  margin-left: 0;
+}
+.footer-subscribe-form {
+  flex-direction: column;
+  align-items: center;
+}
+.footer-social {
+  margin-top: 72px;
+}
+.footer-subscribe {
+  margin-top: 72px;
+}
+.footer {
+  padding: 96px 0;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer .container {
+    flex-wrap: wrap;
+  }
+
+  .footer-social {
+    margin-left: 24px;
+  }
+
+  .footer-subscribe {
+    margin-left: 0;
+    margin-top: 72px;
+  }
+}
